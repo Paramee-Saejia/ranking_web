@@ -1,0 +1,4 @@
+This is a mock web structure created using Flask. The website allows users to rate and comment on Webtoons. Users can input the title, a rating (1-5), and a comment. All the entered information will then be displayed below.
+
+ISSUE:
+Currently, the website is not finished and has some bugs. The issue with the program right now is that when receiving input and sending the data to the table in database.db, extracting the data from the table into a dictionary and passing the dictionary variable from app.py to HTML is causing problems. I think the issue might be related to the form submission on this line: <form action="/add" method="POST">
